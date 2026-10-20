@@ -16,6 +16,7 @@ def compute_entropy(image):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     return shannon_entropy(gray)
 
+#c'est un comment
 
 def compute_tenengrad(image):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)  # Convert to grayscale
